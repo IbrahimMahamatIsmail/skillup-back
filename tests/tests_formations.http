@@ -1,0 +1,101 @@
+### formations 
+GET http://localhost:3001/formations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### formation by id
+GET http://localhost:3001/formations/1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### search formation
+GET http://localhost:3001/formations/search?title=Reac
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### update formation
+PUT http://localhost:3001/formations/1
+Content-Type: application/json
+
+{
+    "title": "React creat updated",
+    "description": "Learn React from scratch",
+    "level": "beginner",
+    "price": 199.99,
+    "categorie_id": 2
+}
+
+### delete formation
+DELETE http://localhost:3001/formations/1

@@ -1,0 +1,61 @@
+### create a new formation
+POST http://localhost:3001/admin/create-formation
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywicm9sZSI6ImFkbWluIiwiaWF0IjoxNzQ3NzgzMjQyLCJleHAiOjE3NDc3OTA0NDJ9.paBZyIW2DuPVSsFaisXThb0S_yTLd9F4xuIXEu_RlhM
+Content-Type: application/json
+
+{
+    "title": "React creat ajouter",
+    "description": "Learn React from scratch",
+    "level": "débutant",
+    "price": 199.99,
+    "categorie_id": 1
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Modifier un formation
+PUT http://localhost:3001/admin/update-formation/4
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywicm9sZSI6ImFkbWluIiwiaWF0IjoxNzQ3NzgzMjQyLCJleHAiOjE3NDc3OTA0NDJ9.paBZyIW2DuPVSsFaisXThb0S_yTLd9F4xuIXEu_RlhM
+Content-Type: application/json
+
+{
+  "title": "title modifié",
+  "description": "Mise à jour",  
+  "level": "Débutant",
+  "price": 1000,
+  "categorie_id": 1
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### SUPPRIMER UN formation UNIQUEMENT PAR l'ADMIN
+DELETE http://localhost:3001/admin/delete-formation/4
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywicm9sZSI6ImFkbWluIiwiaWF0IjoxNzQ3NzgzMjQyLCJleHAiOjE3NDc3OTA0NDJ9.paBZyIW2DuPVSsFaisXThb0S_yTLd9F4xuIXEu_RlhM
