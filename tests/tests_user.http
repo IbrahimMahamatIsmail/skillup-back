@@ -9,7 +9,15 @@ Content-Type: application/json
 }
 
 
+### Inscription
+POST https://skillup-back.onrender.com/users/register
+Content-Type: application/json
 
+{
+  "name": "SkillUp",
+  "email": "skillupapi@skillup.fr",
+  "password": "Hashed_password_admin1"
+}
 
 
 

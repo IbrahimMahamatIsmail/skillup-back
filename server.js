@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 4001;
 const Router = require('./routers/routes');
 const allowedOrigins = [
   'http://localhost:3000',              // Dev front
-  'https://skillup.vercel.app'         // Prod mais pas encore déployé
+  'https://skillup-front.vercel.app/'         // Prod mais pas encore déployé
 ];
 
 app.use(cors({

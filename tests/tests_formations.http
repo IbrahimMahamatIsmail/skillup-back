@@ -1,5 +1,5 @@
 ### formations 
-GET http://localhost:3001/formations
+GET https://skillup-back.onrender.com/formations
 
 
 
@@ -31,7 +31,7 @@ GET http://localhost:3001/formations
 
 
 ### formation by id
-GET http://localhost:3001/formations/1
+GET https://skillup-back.onrender.com/formations/1
 
 
 
@@ -55,7 +55,7 @@ GET http://localhost:3001/formations/1
 
 
 ### search formation
-GET http://localhost:3001/formations/search?title=Reac
+GET https://skillup-back.onrender.com/formations/search?title=Reac
 
 
 
