@@ -14,8 +14,8 @@ POST https://skillup-back.onrender.com/users/register
 Content-Type: application/json
 
 {
-  "name": "SkillUp",
-  "email": "skillupapi@skillup.fr",
+  "name": "SkillUprrrr",
+  "email": "skilluparrrpi@skillup.fr",
   "password": "Hashed_password_admin1"
 }
 
